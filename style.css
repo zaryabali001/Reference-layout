@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+
+.container-1 {
+
+    margin: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    padding-right: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.logo {
+    display: flex;
+    gap: 50px;
+    padding-left: 80px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.container-2 {
+    background-color: rgb(173, 173, 173);
+    height: 550px;
+    width: 84%;
+}
+
+.container-2-bg {
+    padding-top: 150px;
+}
+
+.container-2-text {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height: 220px;
+    width: 400px;
+    margin-left: 75%;
+    align-content: center;
+}
+
+.container-2-text h2 {
+    padding-left: 45px;
+    padding-top: 45PX;
+}
+
+.container-2-text p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.boxes {
+    display: flex;
+    gap: 28px;
+    margin-top: -80px;
+    margin-left: 485px;
+}
+
+.container-3-box-1 {
+    background-color: rgb(105, 105, 105);
+    height: 40%;
+    width: 250px;
+}
+
+.container-3-box-2 {
+    background-color: rgb(105, 105, 105);
+    height: 40%;
+    width: 250px;
+}
+
+.container-3-box-3 {
+    background-color: rgb(105, 105, 105);
+    height: 40%;
+    width: 250px;
+}
+
+.arrow-1 {
+    padding-top: 10%;
+}
+
+.container-4 {
+    margin-left: 200px;
+    /* margin-right: 150px; */
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+
+}
+
+.container-4-heading h1 {
+    margin-left: -20px;
+    margin-right: -50px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-4-pg p {
+    padding-left: 170px;
+    padding-right: 280px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container-4-pg h5 {
+    padding-left: 170px;
+    padding-right: 280px;
+    margin-top: 30px;
+}
+
+.container-5 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.container-5-bg {
+    background-color: rgb(168, 168, 168);
+    height: 400px;
+    width: 1090px;
+}
+
+.container-5-heading {
+    margin-left: 120px;
+    margin-right: -320px;
+    padding-top: 80px;
+    width: 50%;
+}
+
+.container-5-heading h2 {
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-5-heading p {
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+.container-5-h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    width: 290%;
+    margin-top: 110px;
+
+    margin-right: -190px;
+    margin-left: -120px;
+    transform: rotate(90deg);
+}
+
+.container-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-6-heading {
+    margin-left: 120px;
+    margin-right: -320px;
+    padding-top: 80px;
+    width: 25%;
+}
+
+.container-6-heading h2 {
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-6-heading p {
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+.container-6-heading h5 {
+    padding-top: 20px;
+}
+
+.container-6-bg1 {
+    background-color: rgb(168, 168, 168);
+    height: 400px;
+    width: 250px;
+    margin-left: 400px;
+}
+
+.container-6-bg2 {
+    background-color: gray;
+    height: 300px;
+    width: 200px;
+    margin-left: 90px;
+}
+
+.container-6-bg3 {
+    background-color: rgb(219, 219, 219);
+    height: 300px;
+    width: 200px;
+    margin-top: -30px;
+    margin-left: -300px;
+    margin-right: 150px;
+}
+
+.container-7 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.container-7 h1 {
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-8 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.container-8-heading {
+    margin-right: 250px;
+    padding-top: 80px;
+    width: 25%;
+}
+
+.container-8-heading h2 {
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-8-heading p {
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+.container-8-heading h5 {
+    padding-top: 15px;
+}
+
+
+.container-8-bg1 {
+    background-color: grey;
+    height: 450px;
+    width: 350px;
+
+
+}
+
+.container-8-bg2 {
+    background-color: rgb(219, 219, 219);
+    height: 450px;
+    width: 350px;
+    margin-left: -550px;
+    margin-top: 60px;
+}
+
+.container-8 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.container-8-heading {
+    margin-right: 250px;
+    padding-top: 80px;
+    width: 25%;
+}
+
+.container-9 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.container-9-heading {
+    padding-left: 100px;
+    padding-top: 80px;
+    width: 35%;
+}
+
+.container-9-heading h2 {
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-9-heading p {
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+.container-9-heading h5 {
+    padding-top: 15px;
+}
+
+.container-9-bg1 {
+    background-color: grey;
+    height: 350px;
+    width: 500px;
+    margin-top: -60px;
+    margin-right: -580px;
+
+}
+
+.container-9-bg2 {
+    background-color: rgb(211, 211, 211);
+    height: 350px;
+    width: 500px;
+
+}
+
+.container-10 {
+    margin-top: 20px;
+}
+
+.container-10 {
+    color: rgb(97, 97, 97);
+    font-size: 180px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -40px;
+}
+
+.container-10-h {
+    margin-top: -40px;
+}
+
+.container-11-video {
+    background-color: rgb(97, 97, 97);
+    width: 850px;
+    height: 450px;
+    margin-top: -120px;
+}
+
+.container-11-heading {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.container-11-heading p {
+    font-style: italic;
+    width: 30%;
+    font-size: 17px;
+    padding-left: 100px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.container-11-heading p::first-letter {
+    font-size: 60px;
+    color: black;
+}
+
+.container-11-bg {
+    background-color: rgb(185, 183, 183);
+    width: 600px;
+    height: 450px;
+    margin-right: 80px;
+    margin-top: -280px;
+
+
+}
+
+.container-12 {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+
+}
+
+.container-12-h {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    margin-top: 30px;
+
+}
+
+.container-13 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-13-bg1 {
+    background-color: grey;
+    height: 450px;
+    width: 350px;
+    margin-left: 30px;
+
+
+}
+
+.container-13-bg2 {
+    background-color: rgb(219, 219, 219);
+    height: 450px;
+
+    width: 350px;
+    margin-left: 80px;
+    margin-top: -500px;
+}
+
+
+
+
+
+.container-13-heading {
+    margin-left: 120px;
+    margin-right: -320px;
+
+    width: 25%;
+}
+
+.container-13-heading h2 {
+    font-size: 29px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-13-heading p {
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+.container-13-heading h5 {
+    padding-top: 20px;
+}
+
+.container-13-bg3 {
+
+    width: 450px;
+    height: 500px;
+    background-color: rgb(190, 190, 190);
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.container-14 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 290px;
+}
+
+.footer-heading {
+    margin-top: 50px;
+}
+
+.footer-heading-1 h4 {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-heading-1 p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.footer-heading-2 {
+    margin-top: 38px;
+}
+
+.footer-heading-3 {
+    font-size: 12px;
+    align-content: baseline;
+
+}
+
+.footer-heading-3 img {
+    margin-top: 75px;
+    width: 15px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-nav nav {
+    display: grid;
+    margin-top: 30px;
+    margin-right: 80px;
+
+}
+
